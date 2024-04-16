@@ -1,0 +1,113 @@
+@font-face {
+  font-family: light;
+  src: url(./KFOmCnqEu92Fr1Mu4mxK.ttf);
+}
+
+* {
+  font-family: light;
+}
+
+
+
+.container {
+  position: relative;
+  width: 30%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: 70vh;
+  box-shadow: 5px 8px 30px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0%;
+  /* left: 0;
+  right: 0; */
+  background-color: #fff;
+  overflow: hidden;
+  width: 100%;
+  height: 15%;
+  transition: .5s ease;
+  /* padding: 0 10px; */
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top: 1px solid #00000038;
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 75%;
+}
+
+.upper-text {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.left{
+  line-height: 5px;
+}
+
+.left p{
+  opacity: .7;
+}
+
+.catlog-section {
+  line-height: 1px;
+  padding: 0 10px;
+}
+
+.catlog-section section {
+  display: flex;
+}
+
+.catlog-section section h4{
+  padding-right: 10px;
+}
+
+.catlog-section span {
+  background-color: green;
+  padding: 5px 5px;
+  color: #fff;
+}
+
+.colors {
+  padding: 20px 0;
+  font-size: 1.5vw;
+}
+
+#yellow {
+  color: yellow;
+}
+#red {
+  color: red;
+}
+#plum {
+  color: plum;
+}
+#orange {
+  color: orange;
+}
+#skblue {
+  color: skyblue;
+}
+
+#cart-btm{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6vw 0;
+}
+
+#btn a{
+  background-color: black;
+  color: #fff;
+  text-decoration: none;
+    font-size: 1.4vw;
+    padding: 12px 90px;
+    border-radius: 10px;
+}
